@@ -67,6 +67,9 @@ run:
 	sleep 5
 	open http://localhost:8443 || xdg-open http://localhost:8443 || echo "http://localhost:8443"
 
+stop:
+	docker kill $(NAME)
+
 debug:
 	docker run --rm --interactive --tty \
     --env USERNAME=`id -n -u` --env USERID=`id -u` \
