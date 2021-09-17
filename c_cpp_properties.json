@@ -6,10 +6,10 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++20",
-            "intelliSenseMode": "linux-clang-x64",
+            "intelliSenseMode": "${default}",
             "compilerArgs": [
                 "-std=c++20"
             ]
