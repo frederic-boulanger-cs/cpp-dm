@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C++20: build active file",
-            "command": "/usr/bin/clang++",
+            "command": "/usr/bin/g++",
             "args": [
                 "-std=c++20",
                 "-g",
